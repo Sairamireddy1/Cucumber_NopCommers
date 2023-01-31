@@ -12,6 +12,6 @@ Feature: Customer
 		Then user can view add new customer page
 		When User enter customer info
 		And click on save button
-		Then ser can view confirmation message "The new customer has been added successfully"
+		Then user can view confirmation message "The new customer has been added successfully."
 		And close browser
 		

@@ -8,7 +8,7 @@ Scenario: Successfull login with valid credentials
 		Then page title should be "Dashboard / nopCommerce administration"
 		When user click on logout link
 		Then page title should be "Your store. Login"
-		And close browseer
+		And close browser
 		
 	Scenario Outline: Login Data Driven
 		Given launch chrome browser
@@ -18,7 +18,7 @@ Scenario: Successfull login with valid credentials
 		Then page title should be "Dashboard / nopCommerce administration"
 		When user click on logout link
 		Then page title should be "Your store. Login"
-		And close browseer
+		And close browser
 		
 		Examples:
 			| email | password |
